@@ -10,40 +10,57 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/13
-- */1 Readme
-- */2 Basic HTML content
-- */2 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+13/13
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 2/2 Basic CSS styling
+- 2/2 Advanced feature
+- 3/3 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+Nav bar with links to different sections
+about me section with text input
+Multiple pages (2) direct to personal page with gallery
+Project section
+contact section with Facebook icon and link
+Footer with name
 
 (b) CSS features
-
-
+box shadow effects for depth and elevation
+smooth hover transition on interactive elements
+border radius for rounded corners
+fixed navigation bar
+custom typography and color scheme
+aspect ratio maintenance for images
+css transition for smooth animation
 
 (c) Advanced features
-
-
+interactive slide show gallery with navigation buttons
+image carousel with previous/next buttons
+dot indicators for slide show navigation
+hover effects on gallery images
+dynamic caption system for photos
+smooth transition between slides
+cross-page navigation
+lazy loading for images
 
 3. How long, in hours, did it take you to complete this assignment?
-
+I did it in 3 days, in more than 10 hours including online research.
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
-
+youtube.com
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://docs.github.com/en/pages
+https://feathericons.com/
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
-
+I worked on my own.
 
 6. Is there anything special we need to know in order to run your code?
-
+I enabled github page, so with this following link, my portfolio website should show up :
+https://jixinggithub.github.io/uci-inf-133-fq2024-a1-personal-website-a1-portfolio/
