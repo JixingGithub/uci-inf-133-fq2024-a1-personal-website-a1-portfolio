@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jixing Bian - Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+    <style>
+        /* Modern CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name-logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+            nav a:hover {
+                color: #3498db;
+            }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 80px auto 0;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Projects */
+        .project-card {
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            margin-top: 2rem;
+        }
+
+            .project-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .project-title {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-description {
+            margin-bottom: 1rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: color 0.3s;
+        }
+
+            .project-link:hover {
+                color: #2980b9;
+            }
+
+        /* Contact Section */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .social-link {
+            color: #2c3e50;
+            transition: color 0.3s;
+        }
+
+            .social-link:hover {
+                color: #3498db;
+            }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2c3e50;
+            color: white;
+            margin-top: 4rem;
+        }
+
+        /* Technologies Pills */
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .tech-pill {
+            background: #e1e8ed;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.9rem;
+            color: #2c3e50;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="name-logo">Jixing Bian</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <p>Hello! My name is Jixing Bian. I'm currently a 4th-year Computer Science undergraduate at UCI. While I'm not pursuing a career in the tech industry, I am looking forward to working in law enforcement. For me, the skills I've gained from studying Computer Science are not just for a career but for enriching my everyday life—whether it's enhancing my logical thinking, creativity, or problem-solving abilities.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3 class="project-title">FabFlix Website</h3>
+                <p class="project-description">
+                    FabFlix is a movie website I developed as part of my CS122B course. It allows users to explore movies through features like fuzzy search, genre browsing, and searching by star or movie name. The project was built on AWS and involved extensive use of HTML, CSS, JavaScript, and Java web services. Developing FabFlix was challenging yet rewarding, as it required working across a broad spectrum of technologies—from front-end web design to back-end services—giving me valuable experience in full-stack development.
+                </p>
+                <div class="technologies">
+                    <span class="tech-pill">HTML</span>
+                    <span class="tech-pill">CSS</span>
+                    <span class="tech-pill">JavaScript</span>
+                    <span class="tech-pill">Java</span>
+                    <span class="tech-pill">AWS</span>
+                </div>
+                <a href="https://github.com/uci-jherold2-fall23-cs122b/2023-fall-cs122b-garlic-team.git" class="project-link" target="_blank">View on GitHub <i data-feather="external-link"></i></a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jason.bian.35" class="social-link" title="Facebook">
+                    <i data-feather="facebook"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>jixingb@uci.edu</p>
+    </footer>
+
+    <script>
+      // Initialize Feather Icons
+      feather.replace()
+    </script>
+</body>
+</html>
